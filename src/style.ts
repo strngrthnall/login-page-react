@@ -1,8 +1,15 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
-export const Container = styled.div`
+export const HeaderContainer = styled.div`
  display: flex;
 `
+export const BodyContainer = styled.div`
+  display: flex;
+  justify-content: space-around;
+
+  padding-top: 32px;
+`
+
 const GlobalStyle = createGlobalStyle`
   *{
     margin: 0;

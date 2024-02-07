@@ -1,16 +1,22 @@
 import { ThemeProvider } from "styled-components"
 import Header from "./container/Header"
-import GlobalStyle, { Container } from "./style"
+import GlobalStyle, { BodyContainer, HeaderContainer } from "./style"
 import darkTheme from './themes/dark';
+import SignUpForm from "./container/SingUpForm";
+import About from "./container/About";
 
 function App() {
 
   return (
     <ThemeProvider theme={darkTheme}>
       <GlobalStyle />
-      <Container>
+      <HeaderContainer>
         <Header />
-      </Container>
+      </HeaderContainer>
+      <BodyContainer>
+        <About />
+        <SignUpForm />
+      </BodyContainer>
     </ThemeProvider>
   )
 }

@@ -4,6 +4,7 @@ const darkTheme = {
   mainTxtColor: '#ECEFF4',
   secTxtColor: '#D8DEE9',
   inactiveTxtColor: '#4C566A',
+  iconMainColor: '#3B4252',
   btnGreen: '#A3BE8C',
   btnBlue: '#5E81AC'
 }

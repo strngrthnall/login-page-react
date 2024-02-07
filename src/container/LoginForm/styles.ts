@@ -18,6 +18,9 @@ const LoginFormStyle = styled.div`
   input {
     padding: 0 2px;
     border-width: 0;
+
+    background-color: ${(props) => (props.theme.mainTxtColor)};
+    color: ${(props) => (props.theme.mainBkgColor)};
   }
 
   label, a {
